@@ -19,13 +19,13 @@ from logging.handlers import RotatingFileHandler
 #--------------------------------------------
 #Bot token @Botfather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", "20366634")) #Your API ID from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "72095ec36984aa9ceb0dbaa9cec31559") #Your API Hash from my.telegram.org
+APP_ID = int(os.environ.get("APP_ID", "26047636")) #Your API ID from my.telegram.org
+API_HASH = os.environ.get("API_HASH", "d8b1ed69ae1f937c5dd4d3cc8c8de440") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002807902114")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "ROHITREDDY69") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "7845335174")) # Owner id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003456995505")) #Your db channel Id
+OWNER = os.environ.get("OWNER", "RioShin") # Owner username without @
+OWNER_ID = int(os.environ.get("OWNER_ID", "8367080346")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
@@ -33,11 +33,11 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://rohitreddyathuru:R6Co7MOj
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluooo")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
-BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/All_telugu_animes_Hs")
+BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/RioShin")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
-START_PIC = os.environ.get("START_PIC", "https://ibb.co/4g7rHJ1S")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://ibb.co/4g7rHJ1S")
+START_PIC = os.environ.get("START_PIC", "https://i.rj1.dev/PkcNo.png")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://i.rj1.dev/PkcNo.png")
 
 #--------------------------------------------
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
@@ -45,12 +45,12 @@ SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/hwdownload/3")
 SHORT_MSG = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
 
-SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
+SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://i.rj1.dev/PkcNo.png")
 #--------------------------------------------
 
 #--------------------------------------------
-HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @All_telugu_animes_Hs\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/ROHITREDDY69>𝚁𝙾𝙷𝙸𝚃</a></blockquote></b>"
-ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/Harrrshha>𝙷𝙰𝚁𝚂𝙷𝙰</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/All_telugu_animes_Hs>𝚌𝚑𝚊𝚗𝚗𝚎𝚕</a>\n◈ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/All_telugu_animes_Hs>𝙰𝙽𝙸𝙼𝙴</a>\n◈ main ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/All_telugu_animes_Hs>𝙹𝙾𝙸𝙽</a>\n◈ JOIN: <a href=https://t.me/All_telugu_animes_Hs>𝚖𝚊𝚒𝚗 </a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/ROHITREDDY69>𝚁𝙾𝙷𝙸𝚃</a></blockquote></b>"
+HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @Anime_Xyz_Offical & @AnimesMatrix\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/RioShin>𝚁𝚒𝚘𝚂𝚑𝚒𝚗</a></blockquote></b>"
+ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/funnytamilan>𝙵𝚞𝚗𝚗𝚢</a>\n◈ 𝙰𝚗𝚒𝚖𝚎 𝚡𝚢𝚣: <a href=https://t.me/anime_xyz_offical>𝙰𝚗𝚒𝚖𝚎 𝚇𝚢𝚣</a>\n◈ 𝙰𝚗𝚒𝚖𝚎 𝙼𝚊𝚝𝚛𝚒𝚡 : <a href=https://t.me/AnimesMatrix>𝙰𝚗𝚒𝚖𝚎 𝙼𝚊𝚝𝚛𝚒𝚡</a>\n◈𝙱𝚘𝚝𝚜𝚔𝚒𝚗𝚐𝚍𝚘𝚖𝚜 : <a href=https://t.me/AnimesMatrix>𝙱𝚘𝚝𝚜𝚔𝚒𝚗𝚐𝚍𝚘𝚖𝚜</a>\n◈ 𝙼𝚒𝚛𝚊𝚌𝚕𝚎 𝚋𝚘𝚝𝚜: <a href=https://t.me/miracle_bots>𝚖𝚒𝚌𝚊𝚌𝚕𝚎 𝚋𝚘𝚝𝚜</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/RioShin>𝚁𝚒𝚘 𝚂𝚑𝚒𝚗</a></blockquote></b>"
 #--------------------------------------------
 #--------------------------------------------
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n<blockquote> ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote></b>")
@@ -90,10 +90,10 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 
 #==========================(BUY PREMIUM)====================#
 
-OWNER_TAG = os.environ.get("OWNER_TAG", "ROHITREDDY69")
-UPI_ID = os.environ.get("UPI_ID", "rohit23pnb@xl")
+OWNER_TAG = os.environ.get("OWNER_TAG", "RioShin")
+UPI_ID = os.environ.get("UPI_ID", "Dm I will give")
 QR_PIC = os.environ.get("QR_PIC", "https://telegra.ph/file/3e83c69804826b3cba066-16cffa90cd682570da.jpg")
-SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/rohit_1888")
+SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/rioShin")
 #--------------------------------------------
 #Time and its price
 #7 Days
